@@ -11,7 +11,7 @@ mongoose.connect(url, { useNewUrlParser: true }).then(() => {
 });
 
 app.get("/", (req, res) => {
-  res.send("my api is working");
+  res.send("my api is working, and am updating");
 });
 
 app.listen(port, () => {
